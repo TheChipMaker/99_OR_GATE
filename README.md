@@ -1,4 +1,4 @@
-# AND_GATE VHDL Project
+# OR_GATE VHDL Project
 ## Table of Contents
 - [Overview](#overview)
 - [Main Files](#main-files)
