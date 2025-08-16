@@ -7,11 +7,11 @@
 - [License](#license)
 
 ## Overview
-VHDL implementation and testbench for a basic 2-input AND gate. Includes source code and testbench files for simulation and synthesis practice using ModelSim and VS Code.
+VHDL implementation and testbench for a basic 2-input OR gate. Includes source code and testbench files for simulation and synthesis practice using ModelSim and VS Code.
 
 ## Main Files
-- `AND_GATE.vhd`: VHDL code implementing the AND gate entity and architecture.
-- `AND_GATE_tb.vhd`: Testbench to simulate the AND gate inputs and observe output behavior.
+- `OR_GATE.vhd`: VHDL code implementing the OR gate entity and architecture.
+- `OR_GATE_tb.vhd`: Testbench to simulate the OR gate inputs and observe output behavior.
 
 ## Requirements
 - ModelSim (Intel FPGA Edition recommended) for simulation.
@@ -24,18 +24,18 @@ Or using Modelsim command line:
 ```pgsql 
 vlib work
 vmap work ./work
-vcom AND_GATE.vhd
-vcom AND_GATE_tb.vhd
+vcom OR_GATE.vhd
+vcom OR_GATE_tb.vhd
 ```
 
 **2- Simulate Testbench:**
 ```pgsql 
-vsim work.AND_GATE_tb
+vsim work.OR_GATE_tb
 add wave *
 run 40 ns
 ```
 **3- View waveforms:**
-Use the ModelSim waveform viewer to inspect signal transitions and verify AND gate functionality.
+Use the ModelSim waveform viewer to inspect signal transitions and verify OR gate functionality.
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
