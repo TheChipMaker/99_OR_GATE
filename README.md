@@ -8,7 +8,7 @@
 
 ## Overview
 VHDL implementation and testbench for a basic 2-input OR gate. Includes source code and testbench files for simulation and synthesis practice using ModelSim and VS Code.
-
+This project is **synthesizable** and suitable for **Synopsys tools**, and simulation is done using **ModelSim**.
 ## Main Files
 - `OR_GATE.vhd`: VHDL code implementing the OR gate entity and architecture.
 - `OR_GATE_tb.vhd`: Testbench to simulate the OR gate inputs and observe output behavior.
